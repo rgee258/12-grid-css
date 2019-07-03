@@ -2,6 +2,10 @@
 
 In this repository is a small CSS framework for creating a **1200px** wide grid of **12** columns that are **100px** each to contain the contents of a webpage. Included are several default fonts for basic text elements as well.
 
+Calculating widths per column was done using the following:
+
+##### column # * column width + ((column # - 1) + (margin left + margin right))
+
 Setting up this stylesheet was done using guidance from the [960 Grid System](https://960.gs/).
 
 The CSS reset used is provided by [Eric Meyer](https://meyerweb.com/eric/tools/css/reset/).
